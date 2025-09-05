@@ -9,6 +9,6 @@ Scenario Outline: login attempt
     
     Examples:
     	| username                      | password       | 
-      | satyadurgayanangi@gmail.com   | Durga@126			 | 
+      | satyadurgayanangi@gmail.com   | Durga@123			 | 
       | satyadurgayanangi@gmail.com   | Durga@123		   | 
       | satyadurgayanangi@gmail.com   | Durga@123		   | 
