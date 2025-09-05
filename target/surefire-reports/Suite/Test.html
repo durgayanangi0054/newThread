@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Surefire test</title>
+<title>TestNG:  Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 05 08:17:50 IST 2025</td>
+<td>Started on:</td><td>Fri Sep 05 09:17:45 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25367 ms)</td>
+<tr><td>Total time:</td><td>26 seconds (26240 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -83,9 +83,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c93ec50eb6f49a6c0b01a6c43fe14c3, findElement {using=xpath, value=//button[normalize-space()=&apos;Sign Out&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\durga\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52813/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c93ec50eb6f49a6c0b01a6c43fe14c3
+Command: [53f6646da4e6b3d7d3f9a8bbfdada21f, findElement {value=//button[normalize-space()=&apos;Sign Out&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\durga\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60108}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60108/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53f6646da4e6b3d7d3f9a8bbfdada21f
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -100,16 +100,16 @@ Session ID: 4c93ec50eb6f49a6c0b01a6c43fe14c3
 	at PageObjects.LoginPage.displaySignOutbutton(LoginPage.java:44)
 	at setoDefinition.LoginSteps.i_should_be_redirected_to_the_homepage(LoginSteps.java:44)
 	at ✽.I should be redirected to the homepage(file:///C:/Users/durga/eclipse-workspace/CucumberTest/src/test/java/Features/login.feature:7)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2088235849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2088235849'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Sign Out&apos;]&quot;}
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1317307313", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1317307313'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Sign Out&apos;]&quot;}
   (Session info: chrome=139.0.7258.155)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c93ec50eb6f49a6c0b01a6c43fe14c3, findElement {using=xpath, value=//button[normalize-space()=&apos;Sign Out&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\durga\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52813/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c93ec50eb6f49a6c0b01a6c43fe14c3
+Command: [53f6646da4e6b3d7d3f9a8bbfdada21f, findElement {value=//button[normalize-space()=&apos;Sign Out&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\durga\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60108}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60108/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53f6646da4e6b3d7d3f9a8bbfdada21f
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -129,7 +129,7 @@ Session ID: 4c93ec50eb6f49a6c0b01a6c43fe14c3
 	at ✽.I should be redirected to the homepage(file:///C:/Users/durga/eclipse-workspace/CucumberTest/src/test/java/Features/login.feature:7)
 </pre></div></td>
 <td>23</td>
-<td>runners.TestRunner@489115ef</td></tr>
+<td>runners.TestRunner@36d585c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -142,13 +142,13 @@ Session ID: 4c93ec50eb6f49a6c0b01a6c43fe14c3
 <tr>
 <td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login attempt", "Rahul Shetty Academy Login"</td>
 <td></td>
-<td>14</td>
-<td>runners.TestRunner@489115ef</td></tr>
+<td>13</td>
+<td>runners.TestRunner@36d585c</td></tr>
 <tr>
 <td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login attempt", "Rahul Shetty Academy Login"</td>
 <td></td>
-<td>12</td>
-<td>runners.TestRunner@489115ef</td></tr>
+<td>15</td>
+<td>runners.TestRunner@36d585c</td></tr>
 </table><p>
 </body>
 </html>
