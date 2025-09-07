@@ -62,7 +62,7 @@ public class Hooks {
 				} 
 				else 
 				{
-					test.get().fail("Driver was null, could not capture screenshot");
+					test.get().fail("Driver was null, could not capture screenshots");
 				}
 			} 
 			else if (scenario.getStatus() == Status.PASSED) 
