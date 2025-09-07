@@ -36,8 +36,11 @@ public class Hooks {
 		ExtentTest scenarioTest = extent.createTest(scenario.getName());
 		test.set(scenarioTest);
 		
-		WebDriverManager.chromedriver().driverVersion("LATEST").setup();
-		WebDriver webDriver = new ChromeDriver();
+		//WebDriverManager.chromedriver().driverVersion("LATEST").setup();
+		//WebDriver webDriver = new ChromeDriver();
+		
+		WebDriverManager.firefoxdriver().driverVersion("LATEST").setup();
+		WeDrivre webDriver = new FirefoxDriver();
 		driver.set(webDriver);
 
 		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
