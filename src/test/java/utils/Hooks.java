@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -40,8 +41,8 @@ public class Hooks {
 		//WebDriverManager.chromedriver().driverVersion("LATEST").setup();
 		//WebDriver webDriver = new ChromeDriver();
 		
-		WebDriverManager.firefoxdriver().driverVersion("LATEST").setup();
-		WebDriver webDriver = new FirefoxDriver();
+		WebDriverManager.edgedriver().driverVersion("LATEST").setup();
+		WebDriver webDriver = new EdgeDriver();
 		driver.set(webDriver);
 
 		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
