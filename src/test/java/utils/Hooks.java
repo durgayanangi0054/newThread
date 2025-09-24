@@ -5,8 +5,6 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -72,7 +70,7 @@ public class Hooks {
 			} 
 			else if (scenario.getStatus() == Status.SKIPPED) 
 			{
-				test.get().skip("Scenario skipped");
+				test.get().skip("Scenario skippeddddd");
 			}
 
 		} 
