@@ -68,7 +68,7 @@ public class Hooks {
 			else if (scenario.getStatus() == Status.PASSED) 
 			{
 				
-				test.get().pass("Scenario passsed");
+				test.get().pass("Scenario passsedddd");
 			} 
 			else if (scenario.getStatus() == Status.SKIPPED) 
 			{
